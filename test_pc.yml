@@ -18,7 +18,7 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - 山东
+      - 自用
       - sdutcm_校园网      
 rules:
   - null
