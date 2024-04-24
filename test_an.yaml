@@ -6,8 +6,8 @@ mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
 proxies:
-    - {type: socks5, name: '自用', server: '61.132.231.210', port: 58720}
-    - {type: socks5, name: 'sdutcm_校园网', server: '61.132.231.210', port: 60052}    
+    - {type: socks5, name: '自用', server: 'frp-bid.top', port: 58720}
+    - {type: socks5, name: 'sdutcm_校园网', server: 'frp-bid.top', port: 60052}    
 proxy-groups:
     - {name: Proxy, type: select, proxies: ['自用', 'sdutcm_校园网']}
 rules:
