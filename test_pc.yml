@@ -8,7 +8,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - type: socks5
     name: 自用
-    server: frp-bid.top
+    server: frp-nut.top
     port: 58720
   - type: socks5
     name: sdutcm_校园网
