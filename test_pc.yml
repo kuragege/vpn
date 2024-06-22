@@ -12,7 +12,7 @@ proxies:
     port: 58720
   - type: socks5
     name: sdutcm_校园网
-    server: frp-bid.top
+    server: frp-egg.top
     port: 60052    
 proxy-groups:
   - name: Proxy
