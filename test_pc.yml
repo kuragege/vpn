@@ -16,7 +16,7 @@ proxies:
     port: 60052
   - type: socks5
     name: 济南节点
-    server: frp-toe.top
+    server: frp-toe.com
     port: 57915
 proxy-groups:
   - name: Proxy
