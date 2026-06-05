@@ -13,13 +13,18 @@ proxies:
   - type: socks5
     name: sdutcm_校园网
     server: frp-egg.top
-    port: 60052    
+    port: 60052
+  - type: socks5
+    name: 济南节点
+    server: frp-toe.top
+    port: 57915
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
       - 自用
-      - sdutcm_校园网      
+      - sdutcm_校园网
+      - 济南节点
 rules:
   - null
   - DOMAIN-SUFFIX,mzstatic.com,DIRECT
